@@ -1,2 +1,2 @@
 # jovian-careers-website
-A car
+A careers website for Jovian
