@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Jovian</title>
+    <style>
+      h1 {
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Jovian Careers!</h1>
+      <p>
+        At Jovian Careers, we believe in empowering individuals to pursue their
+        dream careers and reach their fullest potential. We are dedicated to
+        providing a platform that connects talented professionals with exciting
+        job opportunities in the ever-evolving tech industry.
+      </p>
+      <div>
+        <h2>Why Choose Jovian Careers?</h2>
+        <div>
+          1. Extensive Tech Network: We have established strong connections with
+          leading tech companies and startups worldwide. Our expansive network
+          ensures that you have access to a wide range of job opportunities
+          across various industries and locations.
+        </div>
+        <div>
+          2. Tailored Job Matching: We understand that every individual is
+          unique, and so are their career aspirations. Our advanced matching
+          algorithms and personalized approach ensure that we connect you with
+          job opportunities that align with your skills, experience, and career
+          goals.
+        </div>
+        <div>
+          3. Career Guidance and Support: We are committed to supporting you
+          throughout your job search and beyond. Our team of career advisors
+          provides expert guidance, resume reviews, interview preparation, and
+          valuable insights into the tech industry to help you excel in your
+          career.
+        </div>
+        <div>
+          4. Exclusive Tech Resources: Gain access to our extensive library of
+          tech resources, including coding tutorials, industry insights, and
+          career development articles. Stay updated with the latest trends,
+          technologies, and best practices to enhance your skills and stay ahead
+          in the competitive tech landscape.
+        </div>
+        <div>
+          5. Community and Networking: Join our vibrant community of tech
+          enthusiasts, professionals, and industry experts. Engage in
+          discussions, attend webinars and networking events, and collaborate
+          with like-minded individuals to foster growth, learning, and valuable
+          connections.
+        </div>
+        <div>
+          6. Seamless Job Application Process: Our user-friendly platform
+          simplifies the job application process. Easily search and apply for
+          job openings, track your applications, and receive updates on your
+          progress, all in one place.
+        </div>
+        <div>
+          7. Confidentiality and Privacy: We prioritize your privacy and ensure
+          that your personal information remains secure and confidential. Your
+          data is protected with robust security measures, giving you peace of
+          mind throughout your job search.
+        </div>
+      </div>
+      <p>
+        Take the first step towards your dream career with Jovian Careers. Join
+        our platform today and unlock a world of exciting opportunities in the
+        tech industry.
+      </p>
+      <p>Your Future Awaits at Jovian Careers - Where Careers in Tech Soar!</p>
+      <div>
+        <h3>Jobs</h3>
+        {% for job in jobs %} {% include 'jobitem.html' %} {% endfor %}
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
